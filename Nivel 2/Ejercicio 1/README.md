@@ -11,6 +11,6 @@
 ## Criterios de aceptación:
         - El numero ingresado debe ser primo
         - El conjunto matematico de numeros a considedar es el de los numeros naturales
-        - El numero ingresado no puede ser mayor a 237
+        - El numero ingresado debe ser menor a 237
         - En caso de que no se encuentren numeros primos previos a ese numero, el sistema debe mostrar un mensaje de error por pantalla
         - Si el numero no es primo, debe mostrarse un error por pantalla que diga "No es primo, si no es primo no me interesa"
