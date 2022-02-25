@@ -2,8 +2,8 @@
 
 ## Solicitud
 
-Dado un usuario
-Cuando ingrese un número primo
+Dado un usuario.
+Cuando ingrese un número primo.
 Entonces se debe mostrar por pantalla el siguiente numero primo.
 
 ## Criterios de Aceptación
