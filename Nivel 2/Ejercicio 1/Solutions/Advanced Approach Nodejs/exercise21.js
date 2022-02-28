@@ -28,7 +28,7 @@ rl.question("Ingrese un numero:  ", function(number) {
     let originTime = Date.now();
 
 
-    /*if (number >= 237 || number <= 0) {
+    if (number >= 237 || number <= 0) {
         console.log('El numero ingresado debe estar entre: 1 y 236');
         rl.close();
         return;
@@ -38,7 +38,7 @@ rl.question("Ingrese un numero:  ", function(number) {
         console.log('No es primo, si no es primo no me interesa');
         rl.close();
         return;
-    }*/
+    }
 
     let hasAnyNumber = false;
     let primeNumbers = [];
