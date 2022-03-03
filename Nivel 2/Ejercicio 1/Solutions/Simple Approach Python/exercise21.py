@@ -27,12 +27,12 @@ def es_primo(numero):
 
 def traer_numero_primo_anterior(numero):
     contador = 1
-    numero_primo_anterior = 0
+    numeros_primos_anteriores = []
     while (contador < numero):
         if (es_primo(contador)):
-            numero_primo_anterior = contador
+            numeros_primos_anteriores.append(contador)
         contador += 1
-    return numero_primo_anterior
+    return numeros_primos_anteriores
 
 def es_numero_valido(numero):
     try:
@@ -54,10 +54,10 @@ if __name__ == "__main__":
     else:
         numero = transformar_string_a_int(numero)
         if (es_primo(numero)):
-            numero_primo_anterior = traer_numero_primo_anterior(numero)
-            if numero_primo_anterior == 0:
+            numeros_primos_anteriores = traer_numero_primo_anterior(numero)
+            if numeros_primos_anteriores == []:
                 print(f"No hay numeros primos anteriores a {numero}")
             else:
-                print(f"El numero primo anterior a {numero} es {numero_primo_anterior}")
+                print(f"Los numeros primos anteriores a {numero} son {numeros_primos_anteriores}")
         else:
             print(f"No es primo, si no es primo no me interesa")
