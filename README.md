@@ -18,3 +18,15 @@ Para entregar un ejercicio se debe realizar un Pull Request hacia el repositorio
 Se aprobará un ejercicio cuando:
     - Todos los criterios de aceptación se cumplan
     - No haya comentarios que realizar sobre el ejercicio
+
+
+
+# Instalación de Python y Visual Studio Code
+
+En el siguiente video veran como instalar python (lenguage de programacion), visual studio code (IDE, basicamente es con lo que van a escribir, ejecutar y subir el codigo a GIT) y como correr un programita de 0 de python.
+https://www.youtube.com/watch?v=-IyA_Yvs8IQ&ab_channel=Piogram
+
+## Instalación de librerias adicionales para Python
+
+En el siguiente video vuelve a instalar python, pero ademas muestra como funciona el comando pip para instalar librerias, esto es por si tienen que usar alguna libreria que no venga en python por defecto (digamos que tiene que hacer alguna funcion matematica re loca que otro tipo ya hizo facil y lo subio, bueno, ahi ustedes van y ejecutan eso para bajarlo e instalarlo, no es requerido por ahora, pero para mas adelante puede llegar a ser util)
+https://www.youtube.com/watch?v=zRNpMOjWko4&ab_channel=Envntor
